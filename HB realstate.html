@@ -32,22 +32,65 @@
     		</a> 
     		<div class="r-logo">    
     			<div class="social">      
-           <a href="https://www.facebook.com/" class="fa fa-facebook" title="Facebook"></a>
-           <a href="http://twitter.com/" class="fa fa-twitter" title="Twitter"></a>
-           <a href="http://instagram.com/" class="fa fa-instagram" title="Instagram"></a>                 
+           <!-- <a href="https://www.facebook.com/" class="fa fa-facebook" title="Facebook"></a> -->
+           <a id="git" href="https://github.com/pair-programming-project2" class="fab fa-github" title="github"target="_blank"></a>
+           <!-- <a href="http://instagram.com/" class="fa fa-instagram" title="Instagram"></a> -->                 
      		 </div>
        	</div> 		
 	    </div>
 	    
      	<div class="container1">
         <div class="subContainer1">           
-            <a href="/residential">home</a>
-				    <a href="/retail" >for sale</a>
-				    <a href="/office">for rent</a>
-				    <a href="http://ttspark.com/" target="_blank">about us</a>     
+            <a href="javascript:window.location.href=window.location.href">home</a><!-- way to refresh the page -->
+				    <a href="/sale" >for sale</a>
+				    <a href="/rent">for rent</a>
+				    <a href="/us" target="_blank">about us</a>     
             <a href="/contact">contact us</a>
         </div>
     	</div>
+
+    	<div class="container2">
+    		<form name="choices">
+				<select name="location">
+					<option class="l1" >New York</option><!-- hide it with jquery -->
+					<option class="l1">Manhatten</option>
+					<option class="l1">Central Park</option>
+					<option class="l1">Queens</option>
+					<option class="l1">Bronx</option>
+					<option class="l1">Brooklyn</option>				
+				</select>
+				<select name="rooms">
+					<option class="l1" >Studio</option><!-- hide it with jquery -->
+					<option class="l1" >1BR</option>
+					<option class="l1">2BR</option>
+					<option class="l1">3BR</option>
+					<option class="l1">4BR</option>								
+				</select>
+				<select name="price">
+					<option class="hide" >Min Rent-Max Rent</option><!-- hide it with jquery -->
+					<option>min 3000$ -  max 3500$ </option>
+					<option>min 4500$ -  max 5500$</option>
+					<option>min 6000$ -  max 6500$</option>
+					<option>min 7500$ -  over 8000$</option>								
+				</select>
+				<select name="option">
+					<option class="hide" >Option</option><!-- hide it with jquery -->
+					<option>Swimming pool</option>
+					<option>Garage</option>
+					<option>Garden</option>
+					<option>Security</option>
+					<option>Parking</option>								
+				</select>
+				<button>SEARCH</button>
+			</form>
+		</div>
+
+
+
+
+
+
+
 
 
 
