@@ -27,16 +27,18 @@
 	    </video>
       
     	<div class="logo">
+    		<div class="hb">
     		<a href="/">
        		 <img id ="img1"src="hb.png"  title="HB Realstate" />
     		</a> 
-    		<div class="r-logo">    
+    		</div>
+    		    
     			<div class="social">      
            <!-- <a href="https://www.facebook.com/" class="fa fa-facebook" title="Facebook"></a> -->
            <a id="git" href="https://github.com/pair-programming-project2" class="fab fa-github" title="github"target="_blank"></a>
            <!-- <a href="http://instagram.com/" class="fa fa-instagram" title="Instagram"></a> -->                 
      		 </div>
-       	</div> 		
+       	 		
 	    </div>
 	    
      	<div class="container1">
@@ -53,48 +55,47 @@
     		<form name="choices">
 				<select name="location">
 					<option class="l1" >New York</option><!-- hide it with jquery -->
-					<option class="l1">Manhatten</option>
-					<option class="l1">Central Park</option>
-					<option class="l1">Queens</option>
-					<option class="l1">Bronx</option>
-					<option class="l1">Brooklyn</option>				
+					<option value="Manhatten" class="l1">Manhatten</option>
+					<option value="Central Park">Central Park</option>
+					<option value="Queens">Queens</option>
+					<option value="Bronx">Bronx</option>
+					<option value="Brooklyn">Brooklyn</option>				
 				</select>
 				<select name="rooms">
-					<option class="l1" >Studio</option><!-- hide it with jquery -->
-					<option class="l1" >1BR</option>
-					<option class="l1">2BR</option>
-					<option class="l1">3BR</option>
-					<option class="l1">4BR</option>								
+					<option value="Studio" >Studio</option><!-- hide it with jquery -->
+					<option value="1BR" >1BR</option>
+					<option value="2BR">2BR</option>
+					<option value="3BR">3BR</option>
+					<option value="4BR">4BR</option>								
 				</select>
 				<select name="price">
-					<option class="hide" >Min Rent-Max Rent</option><!-- hide it with jquery -->
-					<option>min 3000$ -  max 3500$ </option>
-					<option>min 4500$ -  max 5500$</option>
-					<option>min 6000$ -  max 6500$</option>
-					<option>min 7500$ -  over 8000$</option>								
+					<option >Min Rent-Max Rent</option><!-- hide it with jquery -->
+					<option value="min 3000$ -  max 3500$">min 3000$ -  max 3500$ </option>
+					<option value="min 4500$ -  max 5500$">min 4500$ -  max 5500$</option>
+					<option value="min 6000$ -  max 6500$">min 6000$ -  max 6500$</option>
+					<option value="min 7500$ -  over 8000$">min 7500$ -  over 8000$</option>								
 				</select>
 				<select name="option">
 					<option class="hide" >Option</option><!-- hide it with jquery -->
-					<option>Swimming pool</option>
-					<option>Garage</option>
-					<option>Garden</option>
-					<option>Security</option>
-					<option>Parking</option>								
+					<option value="Swimming pool">Swimming pool</option>
+					<option value="Garage">Garage</option>
+					<option value="Garden">Garden</option>
+					<option value="Security">Security</option>
+					<option value="Parking">Parking</option>								
 				</select>
-				<button>SEARCH</button>
+				<button id="btn">SEARCH</button>
 			</form>
 		</div>
+  </div>
+  <div class="page2">
+			<h2> Wonderful house</h2>
+			<p id="apptext"></p><!-- here the style of the appended text -->
+		  <p id="imgapp"></p>
+	</div>
 
 
 
 
-
-
-
-
-
-
-  	</div>
 		
 	</body>
 </html>
