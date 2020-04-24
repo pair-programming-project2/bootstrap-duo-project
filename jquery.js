@@ -43,13 +43,17 @@ $(document).ready(function(){
         });
         for (var i = 0; i < offer.length ; i++){
           if (offer[i].location === locations.join(" ") && offer[i].rooms === room.join(" ")  && offer[i].option === options.join(" ")){
-          alert (locations.join(" ") + " " + room.join(" "));
-         return;
+          // alert (locations.join(" ") + " " + room.join(" "));
+          $("#appxt").append("Wonderful house in " + offer[i].location );
+          $("#car").append("Bedrooms: " + offer[i].rooms + " / " + "Extra: " + offer[i].option);
+          $(".header").hide();
+          $(".cont").toggleClass("cont1");
+          // $(".cont1").show();
+
         }
 
       }
-       
-
+      
 
 
     });

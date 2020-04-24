@@ -8,7 +8,7 @@ html, body {
     position: absolute; /*we must change the position to absolute with the video position too*/
     min-height: 100px;
     width: 100%;
-   /* display : none;*/
+    /*display : none;*/
 }
 
 
@@ -168,4 +168,55 @@ form {
     margin-top: -50px;
     margin-bottom: 82px;
     margin-left: 56px;
+}
+/****************************page2****************************/
+
+#img2
+{
+    margin: 60px 0px 0px 35px;
+    height: 600px;
+    width: 500px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+     
+
+}
+#img2:hover
+{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.tex
+{
+    float:right;
+    /*margin:232px 133px 0px 47px;*/
+    margin-top: 192px;
+    margin-left: 80px;
+    margin-right: 189px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2em;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+
+}
+.cont
+{
+    /*display: none;*/
+    overflow: hidden;
+    
+    display: none;
+}
+.house
+{
+    float: left;
+    
+
+}
+.cont1
+{
+    display: flex;
+
 }
