@@ -136,9 +136,17 @@ select
 
 }
 
+<<<<<<< HEAD
 .page2
 {
   display: none;
 
 }
+=======
+/*.page2
+{
+  display: block;
+
+}*/
+>>>>>>> 927f8dd27f34695ff310fd4da436b45a888394bf
 
