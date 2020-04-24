@@ -1,0 +1,45 @@
+p {
+   
+    margin-left: 132px;
+    margin-right: 144px;
+    margin-top: -8px;
+    
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5em;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+h1
+{
+	margin-left: 132px;
+    margin-right: 144px;
+    margin-top: -8px;
+    
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.5em;
+    
+    font-size: 20px;
+    justify-content: center;
+    /*font-style: italic;*/
+    color:#cc0000;
+    font-size:40px;
+}
+
+body
+{
+    background-image: url("../images/201.png");
+    overflow: hidden;
+}
+.cont
+{
+	
+    background-color: white;
+    margin: 91px 306px 0px 281px;
+    /*padding: 20px;*/
+
+}

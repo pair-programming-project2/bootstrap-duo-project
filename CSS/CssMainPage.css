@@ -1,6 +1,6 @@
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .header {
@@ -29,7 +29,7 @@ html, body {
     margin-bottom: 10px;
     display: inline-block;
     height: 300px;
-    margin-top: 20px
+    margin-top: 68px
 }
 
 
@@ -136,17 +136,36 @@ select
 
 }
 
-<<<<<<< HEAD
-.page2
-{
-  display: none;
-
-}
-=======
 /*.page2
 {
   display: block;
 
 }*/
->>>>>>> 927f8dd27f34695ff310fd4da436b45a888394bf
 
+h2
+{
+    color: blue;
+}
+
+.dis
+{
+    color : red;
+}
+
+/*****************************popup*******************************/
+#search
+{
+    background-color: white;
+  color: black;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-left: 10px
+}
+
+form {
+    margin-top: -50px;
+    margin-bottom: 82px;
+    margin-left: 56px;
+}

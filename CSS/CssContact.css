@@ -1,0 +1,71 @@
+body
+{
+	background-image: url("../images/201.png");
+	overflow: hidden;
+}
+
+form
+{
+	margin-top: -170px;
+}
+
+
+
+
+h1
+{
+	color: white;
+	margin-left: 20px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+ 
+
+
+
+fieldset
+{
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 20px;	
+	width: 500px;
+	margin: 20px auto;
+	background-color: #324888;
+}
+
+legend
+{
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px;
+}
+
+label
+{
+	margin-bottom: 10px;
+	display: block;
+	color: white
+}
+
+input
+{
+	margin-bottom: 10px;
+}
+
+input[type="text"],input[type="password"],textarea
+{
+	padding: 8px;
+	width: 300px;
+	display: flex;
+}
+hr
+{
+	border:1px solid #EEE;
+
+}
+textarea
+{
+	margin-bottom: 10px;
+	height: 200px;
+}
