@@ -16,7 +16,7 @@ html, body {
  {
     position: absolute;
     z-index: -1;
-    top: -285px; /*this for making the video lower*/
+    top: -182px; /*this for making the video lower*/
   
 }
 
